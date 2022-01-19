@@ -8,7 +8,7 @@ public class RbacApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RbacApplication.class, args);
-                System.out.println("RBAC Pratice Already Running");
+                System.out.println("RBAC Pratice Already Running --[PATCH-1]--");
 	}
 
 }
