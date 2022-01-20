@@ -46,7 +46,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter{
         http.authorizeRequests()
                 .anyRequest().authenticated()
                 .and()
-                .formLogin().permitAll()
+                .formLogin().defaultSuccessUrl("/dashboard", true).permitAll()
                 .and()
                 .logout().permitAll()
                 ;
